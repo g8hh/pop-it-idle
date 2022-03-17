@@ -1480,7 +1480,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2 = new lib.CachedBmp_133();
 	this.instance_2.setTransform(-224.7,185.45);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.text,p:{x:125.95,y:12.4,text:"Pop some bubbles until you get 20 bubbles and 1 gem",lineWidth:241,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_1},{t:this.text,p:{x:481.6,y:76.2,text:"Now let's buy some upgrades. Improve your craft power",lineWidth:205,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:-224.7,y:185.45}},{t:this.text,p:{x:-117.95,y:226.8,text:"Now, let's craft a new cursor.It'll increase your damage",lineWidth:196,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:585.8,y:-2}},{t:this.text,p:{x:690.75,y:10.05,text:"Reach enough money and let's buy a mouse (in buildings). It'll give some automation to this game",lineWidth:196,font:"normal 700 18px 'tk-adelle-mono'",lineHeight:24.65}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.text,p:{x:125.95,y:12.4,text:"戳破出一些气泡，直到获得 20 个气泡和 1 个宝石",lineWidth:241,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_1},{t:this.text,p:{x:481.6,y:76.2,text:"现在让我们购买一些升级。 提高你的制作力量",lineWidth:205,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:-224.7,y:185.45}},{t:this.text,p:{x:-117.95,y:226.8,text:"现在，让我们制作一个新光标。它会增加你的伤害",lineWidth:196,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:585.8,y:-2}},{t:this.text,p:{x:690.75,y:10.05,text:"赚到足够的钱，让我们买一个鼠标（在建筑里）。 它会给这个游戏一些自动化",lineWidth:196,font:"normal 700 18px 'tk-adelle-mono'",lineHeight:24.65}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1672,7 +1672,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
 
 	// Слой_1
-	this.gain3 = new cjs.Text("Click 5 times to prestige", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
+	this.gain3 = new cjs.Text("点击 5 次以声望", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
 	this.gain3.name = "gain3";
 	this.gain3.textAlign = "center";
 	this.gain3.lineHeight = 20;
@@ -1687,7 +1687,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.popidle_1();
 	this.instance.setTransform(4,98,0.0722,0.0722);
 
-	this.gain2 = new cjs.Text("Gain: x10,000 -> x10,000", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
+	this.gain2 = new cjs.Text("增益: x10,000 -> x10,000", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
 	this.gain2.name = "gain2";
 	this.gain2.lineHeight = 20;
 	this.gain2.lineWidth = 221;
@@ -1698,7 +1698,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.gain2);
 	}
 
-	this.gain1 = new cjs.Text("Mult Gain: x10,000 -> x10,000", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
+	this.gain1 = new cjs.Text("乘数增益: x10,000 -> x10,000", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
 	this.gain1.name = "gain1";
 	this.gain1.lineHeight = 20;
 	this.gain1.lineWidth = 252;
@@ -2242,7 +2242,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.txt = new cjs.Text("Craft better cursors to deal more damage and get more money", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
+	this.txt = new cjs.Text("制作更好的光标以造成更多伤害并获得更多金钱", "normal 700 14px 'tk-adelle-mono'", "#FFFFFF");
 	this.txt.name = "txt";
 	this.txt.textAlign = "center";
 	this.txt.lineHeight = 20;
@@ -2571,7 +2571,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.txt = new cjs.Text("MAX", "normal 700 30px 'tk-adelle-mono'");
+	this.txt = new cjs.Text("最大", "normal 700 30px 'tk-adelle-mono'");
 	this.txt.name = "txt";
 	this.txt.textAlign = "center";
 	this.txt.lineHeight = 40;
@@ -2729,7 +2729,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.popidle_1();
 	this.instance.setTransform(7,10,0.1185,0.1185);
 
-	this.rew2 = new cjs.Text("+5 min speedUp", "normal 700 23px 'tk-adelle-mono'", "#FFFFFF");
+	this.rew2 = new cjs.Text("+5 分钟加速", "normal 700 23px 'tk-adelle-mono'", "#FFFFFF");
 	this.rew2.name = "rew2";
 	this.rew2.textAlign = "center";
 	this.rew2.lineHeight = 31;
@@ -3512,7 +3512,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.change);
 	}
 
-	this.namee = new cjs.Text("Craft Power", "normal 700 16px 'tk-adelle-mono'", "#FFFFFF");
+	this.namee = new cjs.Text("制作力量", "normal 700 16px 'tk-adelle-mono'", "#FFFFFF");
 	this.namee.name = "namee";
 	this.namee.textAlign = "center";
 	this.namee.lineHeight = 22;
@@ -5074,10 +5074,10 @@ if (reversed == null) { reversed = false; }
 			this.gain1[1] = Decimal.max(this.gain1[0], nd(1.01).pow(this.maxLevel).times(nd(2).pow(Math.min(10, Math.floor(this.maxLevel/100)))));
 			this.gain2[1] = Decimal.max(this.gain2[0], nd(1.02).pow(this.maxLevel).pow(2).times(nd(2).pow(Math.min(10, Math.floor(this.maxLevel/100)))));
 		
-			this.prestigeW.gain1.text = "Mult Gain: x" + format(this.gain1[0]) + " -> " + format(this.gain1[1]);
-			this.prestigeW.gain2.text = "Gain: x" + format(this.gain2[0]) + " -> " + format(this.gain2[1]);
+			this.prestigeW.gain1.text = "增益乘数: x" + format(this.gain1[0]) + " -> " + format(this.gain1[1]);
+			this.prestigeW.gain2.text = "增益: x" + format(this.gain2[0]) + " -> " + format(this.gain2[1]);
 		
-			this.prestigeW.gain3.text = "Click " + Math.round(this.clicksPrestige) + " times to prestige";
+			this.prestigeW.gain3.text = "点击 " + Math.round(this.clicksPrestige) + " 次以声望";
 		
 		
 		
@@ -5095,52 +5095,52 @@ if (reversed == null) { reversed = false; }
 			}
 		
 		
-			this.clickRewTxt.text = "/click: " + format(this.clickRewardTotal);
+			this.clickRewTxt.text = "/点击: " + format(this.clickRewardTotal);
 			this.bubbleRewTxt.text = ": " + format(this.bubblesReward);
 		
 			if (this.popIt.color == 0) {
-				this.multRewTxt.text = "White Mult +" + format(this.multReward);
+				this.multRewTxt.text = "白色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#FFFFFF";
 			}
 			else if (this.popIt.color == 1) {
-				this.multRewTxt.text = "Red Mult +" + format(this.multReward);
+				this.multRewTxt.text = "红色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#FF3333";
 			}
 			else if (this.popIt.color == 2) {
-				this.multRewTxt.text = "Orange Mult +" + format(this.multReward);
+				this.multRewTxt.text = "橘色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#FF9933";
 			}
 			else if (this.popIt.color == 3) {
-				this.multRewTxt.text = "Yellow Mult +" + format(this.multReward);
+				this.multRewTxt.text = "黄色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#FFFF66";
 			}
 			else if (this.popIt.color == 4) {
-				this.multRewTxt.text = "Green Mult +" + format(this.multReward);
+				this.multRewTxt.text = "绿色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#71FFA0";
 			}
 			else if (this.popIt.color == 5) {
-				this.multRewTxt.text = "Cyan Mult +" + format(this.multReward);
+				this.multRewTxt.text = "青色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#33FFFF";
 			}
 			else if (this.popIt.color == 6) {
-				this.multRewTxt.text = "Blue Mult +" + format(this.multReward);
+				this.multRewTxt.text = "蓝色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#3399CC";
 			}
 			else if (this.popIt.color == 7) {
-				this.multRewTxt.text = "Purple Mult +" + format(this.multReward);
+				this.multRewTxt.text = "紫色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#B31AFF";
 			}
 			else if (this.popIt.color == 8) {
-				this.multRewTxt.text = "Pink Mult +" + format(this.multReward);
+				this.multRewTxt.text = "粉色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#CC66CC";
 			}
 			else if (this.popIt.color == 9) {
-				this.multRewTxt.text = "Black Mult +" + format(this.multReward);
+				this.multRewTxt.text = "黑色乘数 +" + format(this.multReward);
 				this.multRewTxt.color = "#000000";
 			}
 		
 			
-			this.multTotalTxt.text = "x" + format(this.clickReward) + " to $ gain";
+			this.multTotalTxt.text = "x" + format(this.clickReward) + " 到 $ 增益";
 			this.mult1t.text = format(this.mults[0]);
 			this.mult2t.text = format(this.mults[1]);
 			this.mult3t.text = format(this.mults[2]);
@@ -5269,7 +5269,7 @@ if (reversed == null) { reversed = false; }
 					this.upBtn.visible = false;
 					this.downBtn.visible = true;
 					
-					this.bupgrades.b1.namee.text = "Mouse";
+					this.bupgrades.b1.namee.text = "鼠标";
 					
 					
 					if (this.buildings[0].level > 0) {
@@ -5286,7 +5286,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b1.cost.visible = true;
 						this.bupgrades.b1.currency.visible = true;
 						
-						this.bupgrades.b1.change.text = "NO"
+						this.bupgrades.b1.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks0next*100)/100 + "s / " + format(this.powers0next.times(100)) + "%";
 						this.bupgrades.b1.cost.text = format(this.buildings[0].totalCost);
 						this.bupgrades.b1.cost.color = "#FFFF99";
@@ -5305,7 +5305,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b2.namee.text = "Stone";
+					this.bupgrades.b2.namee.text = "石头";
 					
 					
 					if (this.buildings[1].level > 0) {
@@ -5322,7 +5322,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b2.cost.visible = true;
 						this.bupgrades.b2.currency.visible = true;
 						
-						this.bupgrades.b2.change.text = "NO"
+						this.bupgrades.b2.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks1next*100)/100 + "s / " + format(this.powers1next.times(100)) + "%";
 						this.bupgrades.b2.cost.text = format(this.buildings[1].totalCost);
 						this.bupgrades.b2.cost.color = "#FFFF99";
@@ -5341,7 +5341,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b3.namee.text = "Needle";
+					this.bupgrades.b3.namee.text = "针";
 					
 					
 					if (this.buildings[2].level > 0) {
@@ -5358,7 +5358,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b3.cost.visible = true;
 						this.bupgrades.b3.currency.visible = true;
 						
-						this.bupgrades.b3.change.text = "NO"
+						this.bupgrades.b3.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks2next*100)/100 + "s / " + format(this.powers2next.times(100)) + "%";
 						this.bupgrades.b3.cost.text = format(this.buildings[2].totalCost);
 						this.bupgrades.b3.cost.color = "#FFFF99";
@@ -5377,7 +5377,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b4.namee.text = "Hammer";
+					this.bupgrades.b4.namee.text = "锤子";
 					
 					
 					if (this.buildings[3].level > 0) {
@@ -5394,7 +5394,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b4.cost.visible = true;
 						this.bupgrades.b4.currency.visible = true;
 						
-						this.bupgrades.b4.change.text = "NO"
+						this.bupgrades.b4.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks3next*100)/100 + "s / " + format(this.powers3next.times(100)) + "%";
 						this.bupgrades.b4.cost.text = format(this.buildings[3].totalCost);
 						this.bupgrades.b4.cost.color = "#FFFF99";
@@ -5415,7 +5415,7 @@ if (reversed == null) { reversed = false; }
 					this.upBtn.visible = true;
 					this.downBtn.visible = false;
 					
-					this.bupgrades.b1.namee.text = "Cursor";
+					this.bupgrades.b1.namee.text = "光标";
 					
 					
 					if (this.buildings[4].level > 0) {
@@ -5432,7 +5432,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b1.cost.visible = true;
 						this.bupgrades.b1.currency.visible = true;
 						
-						this.bupgrades.b1.change.text = "NO"
+						this.bupgrades.b1.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks4next*100)/100 + "s / " + format(this.powers4next.times(100)) + "%";
 						this.bupgrades.b1.cost.text = format(this.buildings[4].totalCost);
 						this.bupgrades.b1.cost.color = "#FFFF99";
@@ -5451,7 +5451,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b2.namee.text = "Snake";
+					this.bupgrades.b2.namee.text = "蛇";
 					
 					
 					if (this.buildings[5].level > 0) {
@@ -5468,7 +5468,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b2.cost.visible = true;
 						this.bupgrades.b2.currency.visible = true;
 						
-						this.bupgrades.b2.change.text = "NO"
+						this.bupgrades.b2.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks5next*100)/100 + "s / " + format(this.powers5next.times(100)) + "%";
 						this.bupgrades.b2.cost.text = format(this.buildings[5].totalCost);
 						this.bupgrades.b2.cost.color = "#FFFF99";
@@ -5487,7 +5487,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b3.namee.text = "Sword";
+					this.bupgrades.b3.namee.text = "剑";
 					
 					
 					if (this.buildings[6].level > 0) {
@@ -5504,7 +5504,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b3.cost.visible = true;
 						this.bupgrades.b3.currency.visible = true;
 						
-						this.bupgrades.b3.change.text = "NO"
+						this.bupgrades.b3.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks6next*100)/100 + "s / " + format(this.powers6next.times(100)) + "%";
 						this.bupgrades.b3.cost.text = format(this.buildings[6].totalCost);
 						this.bupgrades.b3.cost.color = "#FFFF99";
@@ -5523,7 +5523,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b4.namee.text = "Passive DMG";
+					this.bupgrades.b4.namee.text = "被动伤害";
 					
 					
 					if (this.buildings[7].level > 0) {
@@ -5540,7 +5540,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b4.cost.visible = true;
 						this.bupgrades.b4.currency.visible = true;
 						
-						this.bupgrades.b4.change.text = "NO"
+						this.bupgrades.b4.change.text = "否"
 							+ " -> " + Math.round(this.maxTicks7next*100)/100 + "s / " + format(this.powers7next.times(100)) + "%";
 						this.bupgrades.b4.cost.text = format(this.buildings[7].totalCost);
 						this.bupgrades.b4.cost.color = "#FFFF99";
@@ -5567,7 +5567,7 @@ if (reversed == null) { reversed = false; }
 					this.upBtn.visible = false;
 					this.downBtn.visible = true;
 					
-					this.bupgrades.b1.namee.text = "Craft Power";
+					this.bupgrades.b1.namee.text = "制作力量";
 					
 					if (this.upgrades[0].level < this.upgrades[0].maxLevel) {
 						this.bupgrades.b1.cost.visible = true;
@@ -5581,7 +5581,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b1.cost.visible = false;
 						this.bupgrades.b1.currency.visible = false;
-						this.bupgrades.b1.change.text = "x"+format(this.craftPow) + " (MAX)";
+						this.bupgrades.b1.change.text = "x"+format(this.craftPow) + " (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[0].totalCost) && this.upgrades[0].level < this.upgrades[0].maxLevel) {
@@ -5595,7 +5595,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b2.namee.text = "Gem Chance";
+					this.bupgrades.b2.namee.text = "获得宝石的几率";
 					
 					if (this.upgrades[1].level < this.upgrades[1].maxLevel) {
 						this.bupgrades.b2.cost.visible = true;
@@ -5609,7 +5609,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b2.cost.visible = false;
 						this.bupgrades.b2.currency.visible = false;
-						this.bupgrades.b2.change.text = format(nd(this.gemCh)) + "% (MAX)";
+						this.bupgrades.b2.change.text = format(nd(this.gemCh)) + "% (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[1].totalCost) && this.upgrades[1].level < this.upgrades[1].maxLevel) {
@@ -5621,7 +5621,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b3.namee.text = "Max Gem Use";
+					this.bupgrades.b3.namee.text = "最大宝石使用数量";
 					
 					if (this.upgrades[2].level < this.upgrades[2].maxLevel) {
 						this.bupgrades.b3.cost.visible = true;
@@ -5635,7 +5635,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b3.cost.visible = false;
 						this.bupgrades.b3.currency.visible = false;
-						this.bupgrades.b3.change.text = format(nd(this.maxGemUse)) + " (MAX)";
+						this.bupgrades.b3.change.text = format(nd(this.maxGemUse)) + " (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[2].totalCost) && this.upgrades[2].level < this.upgrades[2].maxLevel) {
@@ -5647,7 +5647,7 @@ if (reversed == null) { reversed = false; }
 					
 				
 				
-					this.bupgrades.b4.namee.text = "Double Gem Chance";
+					this.bupgrades.b4.namee.text = "双倍宝石的几率";
 					
 					if (this.upgrades[3].level < this.upgrades[3].maxLevel) {
 						this.bupgrades.b4.cost.visible = true;
@@ -5661,7 +5661,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b4.cost.visible = false;
 						this.bupgrades.b4.currency.visible = false;
-						this.bupgrades.b4.change.text = format(nd(this.doubleGC)) + "% (MAX)";
+						this.bupgrades.b4.change.text = format(nd(this.doubleGC)) + "% (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[3].totalCost) && this.upgrades[3].level < this.upgrades[3].maxLevel) {
@@ -5676,7 +5676,7 @@ if (reversed == null) { reversed = false; }
 					this.upBtn.visible = true;
 					this.downBtn.visible = false;
 					
-					this.bupgrades.b1.namee.text = "Max Craft Power";
+					this.bupgrades.b1.namee.text = "最大制作力量";
 					
 					if (this.upgrades[4].level < this.upgrades[4].maxLevel) {
 						this.bupgrades.b1.cost.visible = true;
@@ -5690,7 +5690,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b1.cost.visible = false;
 						this.bupgrades.b1.currency.visible = false;
-						this.bupgrades.b1.change.text = "x"+format(this.maxCraftPower) + " (MAX)";
+						this.bupgrades.b1.change.text = "x"+format(this.maxCraftPower) + " (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[4].totalCost) && this.upgrades[4].level < this.upgrades[4].maxLevel) {
@@ -5704,7 +5704,7 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b2.namee.text = "Mults Exponent";
+					this.bupgrades.b2.namee.text = "乘数指数";
 					
 					if (this.upgrades[5].level < this.upgrades[5].maxLevel) {
 						this.bupgrades.b2.cost.visible = true;
@@ -5718,7 +5718,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b2.cost.visible = false;
 						this.bupgrades.b2.currency.visible = false;
-						this.bupgrades.b2.change.text = "^" + format(this.multsExp) + " (MAX)";
+						this.bupgrades.b2.change.text = "^" + format(this.multsExp) + " (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[5].totalCost) && this.upgrades[5].level < this.upgrades[5].maxLevel) {
@@ -5730,13 +5730,13 @@ if (reversed == null) { reversed = false; }
 				
 				
 				
-					this.bupgrades.b3.namee.text = "Passive Money";
+					this.bupgrades.b3.namee.text = "被动金钱";
 					
 					if (this.upgrades[6].level < this.upgrades[6].maxLevel) {
 						this.bupgrades.b3.cost.visible = true;
 						this.bupgrades.b3.currency.visible = true;
 						
-						this.bupgrades.b3.change.text = format(this.passiveMoney.times(100)) + "%/s -> "+format(this.passiveMoney_next.times(100)) + "%/s";
+						this.bupgrades.b3.change.text = format(this.passiveMoney.times(100)) + "%/秒 -> "+format(this.passiveMoney_next.times(100)) + "%/秒";
 						this.bupgrades.b3.cost.text = format(this.upgrades[6].totalCost);
 						this.bupgrades.b3.cost.color = "#FF9999";
 						this.bupgrades.b3.currency.gotoAndStop(1);
@@ -5744,7 +5744,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b3.cost.visible = false;
 						this.bupgrades.b3.currency.visible = false;
-						this.bupgrades.b3.change.text = format(this.passiveMoney.times(100)) + "%/s (MAX)";
+						this.bupgrades.b3.change.text = format(this.passiveMoney.times(100)) + "%/秒 (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[6].totalCost) && this.upgrades[6].level < this.upgrades[6].maxLevel) {
@@ -5756,13 +5756,13 @@ if (reversed == null) { reversed = false; }
 					
 				
 				
-					this.bupgrades.b4.namee.text = "Passive Gems";
+					this.bupgrades.b4.namee.text = "被动宝石";
 					
 					if (this.upgrades[7].level < this.upgrades[7].maxLevel) {
 						this.bupgrades.b4.cost.visible = true;
 						this.bupgrades.b4.currency.visible = true;
 						
-						this.bupgrades.b4.change.text = format(this.passiveGems) + "/min -> "+format(this.passiveGems_next) + "/min";
+						this.bupgrades.b4.change.text = format(this.passiveGems) + "/分钟 -> "+format(this.passiveGems_next) + "/分钟";
 						this.bupgrades.b4.cost.text = format(this.upgrades[7].totalCost);
 						this.bupgrades.b4.cost.color = "#FF9999";
 						this.bupgrades.b4.currency.gotoAndStop(1);
@@ -5770,7 +5770,7 @@ if (reversed == null) { reversed = false; }
 					else {
 						this.bupgrades.b4.cost.visible = false;
 						this.bupgrades.b4.currency.visible = false;
-						this.bupgrades.b4.change.text = format(this.passiveGems) + "/min (MAX)";
+						this.bupgrades.b4.change.text = format(this.passiveGems) + "/分钟 (最大)";
 					}
 					
 					if (this.bubbles.gte(this.upgrades[7].totalCost) && this.upgrades[7].level < this.upgrades[7].maxLevel) {
@@ -5785,7 +5785,7 @@ if (reversed == null) { reversed = false; }
 			this.buy1.txt.text = "1";
 			this.buy10.txt.text = "10%";
 			this.buy50.txt.text = "50%";
-			this.buyMax.txt.text = "MAX";
+			this.buyMax.txt.text = "最大";
 		
 			if (this.buyAmoType == 1) {
 				this.buy1.gotoAndStop(1);
@@ -6368,7 +6368,7 @@ if (reversed == null) { reversed = false; }
 				var newCraft = this.craftPowFull1.plus((this.craftPowFull2.sub(this.craftPowFull1)).times(Math.random()));
 				
 				if (newCraft.gt(this.clickPower)) {
-					this.craftedTxt.text = "You crafted a better cursor (" +
+					this.craftedTxt.text = "你制作了一个更好的光标 (" +
 					format(newCraft) + " > " + format(this.clickPower) + ")";
 					this.craftedTxt.color = "#009933";
 					this.clickPower = newCraft;
@@ -6378,7 +6378,7 @@ if (reversed == null) { reversed = false; }
 					}
 				}
 				else {
-					this.craftedTxt.text = "You crafted a worse cursor (" +
+					this.craftedTxt.text = "你制作了一个更糟糕的光标 (" +
 					format(newCraft) + " < " + format(this.clickPower) + ")";
 					this.craftedTxt.color = "#990000";
 				}
@@ -6386,7 +6386,7 @@ if (reversed == null) { reversed = false; }
 				
 			}
 			else {
-				this.craftedTxt.text = "You don't have enough gems";
+				this.craftedTxt.text = "你没有足够的宝石";
 				this.craftedTxt.color = "#990000"
 			}
 		}
@@ -6576,60 +6576,60 @@ if (reversed == null) { reversed = false; }
 				if (this.buTab == 1) {
 					if (this.buPage == 1) {
 						if (this.hoverType == 0) {
-							this.hoverHelp.txt.text = "Mouse clicks random bubble with average speed";
+							this.hoverHelp.txt.text = "鼠标以平均速度点击随机泡泡";
 						}
 						if (this.hoverType == 1) {
-							this.hoverHelp.txt.text = "Stone clicks random bubble with slow speed";
+							this.hoverHelp.txt.text = "石头以慢速点击随机泡泡";
 						}
 						if (this.hoverType == 2) {
-							this.hoverHelp.txt.text = "Needle clicks random bubble with high speed";
+							this.hoverHelp.txt.text = "针高速点击随机气泡";
 						}
 						if (this.hoverType == 3) {
-							this.hoverHelp.txt.text = "Hammer clicks random and 2 adjacent bubbles (50% dmg) with slow speed";
+							this.hoverHelp.txt.text = "锤击随机点击 2 个相邻的气泡 (50% 伤害) 速度较慢";
 						}
 					}
 					if (this.buPage == 2) {
 						if (this.hoverType == 0) {
-							this.hoverHelp.txt.text = "Cursor clicks first unpopped bubble with fast speed";
+							this.hoverHelp.txt.text = "光标快速点击第一个未爆破的气泡";
 						}
 						if (this.hoverType == 1) {
-							this.hoverHelp.txt.text = "Snake clicks random bubble and poison it (20% dmg/s) with slow speed";
+							this.hoverHelp.txt.text = "蛇点击随机气泡并以慢速毒化它 (20% 伤害/秒)";
 						}
 						if (this.hoverType == 2) {
-							this.hoverHelp.txt.text = "Sword slices random row of bubbles";
+							this.hoverHelp.txt.text = "剑随机切割一排气泡";
 						}
 						if (this.hoverType == 3) {
-							this.hoverHelp.txt.text = "Passive DMG damages all bubbles";
+							this.hoverHelp.txt.text = "被动伤害伤害所有气泡";
 						}
 					}
 				}
 				if (this.buTab == 2) {
 					if (this.buPage == 1) {
 						if (this.hoverType == 0) {
-							this.hoverHelp.txt.text = "Craft better cursors to deal more damage and get more money";
+							this.hoverHelp.txt.text = "制作更好的光标以造成更多伤害并获得更多金钱";
 						}
 						if (this.hoverType == 1) {
-							this.hoverHelp.txt.text = "Chance of getting a gem after popping a bubble";
+							this.hoverHelp.txt.text = "爆破泡泡后有几率获得宝石";
 						}
 						if (this.hoverType == 2) {
-							this.hoverHelp.txt.text = "Max amount of gems you can use for crafting a cursor";
+							this.hoverHelp.txt.text = "可用于制作光标的最大宝石数量";
 						}
 						if (this.hoverType == 3) {
-							this.hoverHelp.txt.text = "Chance to get 2 gems instead of 1 after popping a bubble";
+							this.hoverHelp.txt.text = "爆破泡泡后有机会获得 2 颗宝石而不是 1 颗";
 						}
 					}
 					if (this.buPage == 2) {
 						if (this.hoverType == 0) {
-							this.hoverHelp.txt.text = "Max craft power";
+							this.hoverHelp.txt.text = "最大制作力量";
 						}
 						if (this.hoverType == 1) {
-							this.hoverHelp.txt.text = "Multipliers are raised to this exponent (to get more money)";
+							this.hoverHelp.txt.text = "乘数被提高到这个指数（以获得更多的钱）";
 						}
 						if (this.hoverType == 2) {
-							this.hoverHelp.txt.text = "Passive money gain based on money per click";
+							this.hoverHelp.txt.text = "基于每次点击金钱的被动金钱收益";
 						}
 						if (this.hoverType == 3) {
-							this.hoverHelp.txt.text = "Passive gem gain";
+							this.hoverHelp.txt.text = "被动宝石获取";
 						}
 					}
 				}
@@ -6909,7 +6909,7 @@ if (reversed == null) { reversed = false; }
 	this.spdTime.parent = this;
 	this.spdTime.setTransform(380.8,622.05,0.9704,0.9678);
 
-	this.spdUP = new cjs.Text("SpeedUP (x2, max 1h)", "bold 18px 'Arial'", "#FFFFFF");
+	this.spdUP = new cjs.Text("加速 (x2, 最大 1小时)", "bold 18px 'Arial'", "#FFFFFF");
 	this.spdUP.name = "spdUP";
 	this.spdUP.textAlign = "center";
 	this.spdUP.lineHeight = 22;
@@ -7006,7 +7006,7 @@ if (reversed == null) { reversed = false; }
 	this.gemMinus.name = "gemMinus";
 	this.gemMinus.setTransform(195.65,266.75,0.7473,0.7473,0,0,0,23.2,23.2);
 
-	this.gemUseTxt = new cjs.Text("Gem Use: 1", "normal 700 18px 'tk-adelle-mono'", "#FFFFFF");
+	this.gemUseTxt = new cjs.Text("使用宝石数量: 1", "normal 700 18px 'tk-adelle-mono'", "#FFFFFF");
 	this.gemUseTxt.name = "gemUseTxt";
 	this.gemUseTxt.lineHeight = 25;
 	this.gemUseTxt.lineWidth = 193;
@@ -7017,7 +7017,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.gemUseTxt);
 	}
 
-	this.craftedTxt = new cjs.Text("You crafted a worse cursor (99,999 < 100,000)", "normal 700 18px 'tk-adelle-mono'", "#009933");
+	this.craftedTxt = new cjs.Text("你制作了一个更糟糕的光标 (99,999 < 100,000)", "normal 700 18px 'tk-adelle-mono'", "#009933");
 	this.craftedTxt.name = "craftedTxt";
 	this.craftedTxt.textAlign = "center";
 	this.craftedTxt.lineHeight = 25;
@@ -7029,7 +7029,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.craftedTxt);
 	}
 
-	this.powerTxt = new cjs.Text("Power: 100,000", "normal 700 18px 'tk-adelle-mono'", "#FFFFFF");
+	this.powerTxt = new cjs.Text("力量: 100,000", "normal 700 18px 'tk-adelle-mono'", "#FFFFFF");
 	this.powerTxt.name = "powerTxt";
 	this.powerTxt.textAlign = "center";
 	this.powerTxt.lineHeight = 25;
@@ -7065,7 +7065,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.craftPowTxt);
 	}
 
-	this.gemChTxt = new cjs.Text("Gem Chance: 5%", "normal 700 22px 'tk-adelle-mono'", "#FFFFFF");
+	this.gemChTxt = new cjs.Text("获得宝石几率: 5%", "normal 700 22px 'tk-adelle-mono'", "#FFFFFF");
 	this.gemChTxt.name = "gemChTxt";
 	this.gemChTxt.textAlign = "center";
 	this.gemChTxt.lineHeight = 30;
@@ -7085,7 +7085,7 @@ if (reversed == null) { reversed = false; }
 	this.autoIs.name = "autoIs";
 	this.autoIs.setTransform(811,86.7,1,1,0,0,0,18.7,18.7);
 
-	this.text = new cjs.Text("Autoprogress", "normal 700 24px 'tk-adelle-mono'", "#FFFFFF");
+	this.text = new cjs.Text("自动进度", "normal 700 24px 'tk-adelle-mono'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 32;
 	this.text.lineWidth = 217;
@@ -7096,7 +7096,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.text);
 	}
 
-	this.multTotalTxt = new cjs.Text("x100,000 to $ gain", "normal 700 21px 'tk-adelle-mono'", "#FFFFFF");
+	this.multTotalTxt = new cjs.Text("x100,000 到 $ 增益", "normal 700 21px 'tk-adelle-mono'", "#FFFFFF");
 	this.multTotalTxt.name = "multTotalTxt";
 	this.multTotalTxt.textAlign = "center";
 	this.multTotalTxt.lineHeight = 28;
@@ -7228,7 +7228,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.mult1t);
 	}
 
-	this.multRewTxt = new cjs.Text("Purple Mult +100,000", "normal 700 30px 'tk-adelle-mono'", "#FFFFFF");
+	this.multRewTxt = new cjs.Text("紫色乘数 +100,000", "normal 700 30px 'tk-adelle-mono'", "#FFFFFF");
 	this.multRewTxt.name = "multRewTxt";
 	this.multRewTxt.textAlign = "center";
 	this.multRewTxt.lineHeight = 40;
@@ -7287,7 +7287,7 @@ if (reversed == null) { reversed = false; }
 	this.levMinus.name = "levMinus";
 	this.levMinus.setTransform(757.45,31.7,1,1,0,0,0,23.2,23.2);
 
-	this.levNow = new cjs.Text("Level: 1", "normal 700 24px 'tk-adelle-mono'", "#FFFFFF");
+	this.levNow = new cjs.Text("等级: 1", "normal 700 24px 'tk-adelle-mono'", "#FFFFFF");
 	this.levNow.name = "levNow";
 	this.levNow.textAlign = "center";
 	this.levNow.lineHeight = 32;
@@ -7299,7 +7299,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.levNow);
 	}
 
-	this.cpText = new cjs.Text("Crafting", "normal 700 30px 'tk-adelle-mono'", "#FFFFFF");
+	this.cpText = new cjs.Text("制作中", "normal 700 30px 'tk-adelle-mono'", "#FFFFFF");
 	this.cpText.name = "cpText";
 	this.cpText.textAlign = "center";
 	this.cpText.lineHeight = 40;
