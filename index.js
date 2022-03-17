@@ -1480,7 +1480,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2 = new lib.CachedBmp_133();
 	this.instance_2.setTransform(-224.7,185.45);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.text,p:{x:125.95,y:12.4,text:"戳破出一些气泡，直到获得 20 个气泡和 1 个宝石",lineWidth:241,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_1},{t:this.text,p:{x:481.6,y:76.2,text:"现在让我们购买一些升级。 提高你的制作力量",lineWidth:205,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:-224.7,y:185.45}},{t:this.text,p:{x:-117.95,y:226.8,text:"现在，让我们制作一个新光标。它会增加你的伤害",lineWidth:196,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:585.8,y:-2}},{t:this.text,p:{x:690.75,y:10.05,text:"赚到足够的钱，让我们买一个鼠标（在建筑里）。 它会给这个游戏一些自动化",lineWidth:196,font:"normal 700 18px 'tk-adelle-mono'",lineHeight:24.65}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.text,p:{x:125.95,y:12.4,text:"戳破出一些气泡，\n直到获得 20 个气泡和\n 1 个宝石",lineWidth:241,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_1},{t:this.text,p:{x:481.6,y:76.2,text:"现在让我们购买一些升级。\n 提高你的制作力量",lineWidth:205,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:-224.7,y:185.45}},{t:this.text,p:{x:-117.95,y:226.8,text:"现在，让我们制作一个新光标。\n它会增加你的伤害",lineWidth:196,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:585.8,y:-2}},{t:this.text,p:{x:690.75,y:10.05,text:"赚到足够的钱，\n让我们买一个鼠标（在建筑里）。 \n它会给这个游戏一些自动化",lineWidth:196,font:"normal 700 18px 'tk-adelle-mono'",lineHeight:24.65}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4719,8 +4719,8 @@ if (reversed == null) { reversed = false; }
 				this.speedUP_b.visible = true;
 				this.spdUP.visible = true;
 				this.spdTime.visible = true;
-				this.spdUP.text = "加速 (x2, max 30m)";
-				this.spdTime.text = Math.floor(speedUPtime_ib*10)/10 + "s";
+				this.spdUP.text = "加速 (x2, 最大 30分钟)";
+				this.spdTime.text = Math.floor(speedUPtime_ib*10)/10 + "秒";
 				
 				if (sActive == true) {
 					this.speedUP_b.gotoAndStop(1);
@@ -5276,8 +5276,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b1.cost.visible = true;
 						this.bupgrades.b1.currency.visible = true;
 						
-						this.bupgrades.b1.change.text = Math.round(this.maxTicks[0]*100)/100 + "s / " + format(this.powers[0].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks0next*100)/100 + "s / " + format(this.powers0next.times(100)) + "%";
+						this.bupgrades.b1.change.text = Math.round(this.maxTicks[0]*100)/100 + "秒 / " + format(this.powers[0].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks0next*100)/100 + "秒 / " + format(this.powers0next.times(100)) + "%";
 						this.bupgrades.b1.cost.text = format(this.buildings[0].totalCost);
 						this.bupgrades.b1.cost.color = "#FFFF99";
 						this.bupgrades.b1.currency.gotoAndStop(0);
@@ -5287,7 +5287,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b1.currency.visible = true;
 						
 						this.bupgrades.b1.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks0next*100)/100 + "s / " + format(this.powers0next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks0next*100)/100 + "秒 / " + format(this.powers0next.times(100)) + "%";
 						this.bupgrades.b1.cost.text = format(this.buildings[0].totalCost);
 						this.bupgrades.b1.cost.color = "#FFFF99";
 						this.bupgrades.b1.currency.gotoAndStop(0);
@@ -5312,8 +5312,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b2.cost.visible = true;
 						this.bupgrades.b2.currency.visible = true;
 						
-						this.bupgrades.b2.change.text = Math.round(this.maxTicks[1]*100)/100 + "s / " + format(this.powers[1].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks1next*100)/100 + "s / " + format(this.powers1next.times(100)) + "%";
+						this.bupgrades.b2.change.text = Math.round(this.maxTicks[1]*100)/100 + "秒 / " + format(this.powers[1].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks1next*100)/100 + "秒 / " + format(this.powers1next.times(100)) + "%";
 						this.bupgrades.b2.cost.text = format(this.buildings[1].totalCost);
 						this.bupgrades.b2.cost.color = "#FFFF99";
 						this.bupgrades.b2.currency.gotoAndStop(0);
@@ -5323,7 +5323,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b2.currency.visible = true;
 						
 						this.bupgrades.b2.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks1next*100)/100 + "s / " + format(this.powers1next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks1next*100)/100 + "秒 / " + format(this.powers1next.times(100)) + "%";
 						this.bupgrades.b2.cost.text = format(this.buildings[1].totalCost);
 						this.bupgrades.b2.cost.color = "#FFFF99";
 						this.bupgrades.b2.currency.gotoAndStop(0);
@@ -5348,8 +5348,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b3.cost.visible = true;
 						this.bupgrades.b3.currency.visible = true;
 						
-						this.bupgrades.b3.change.text = Math.round(this.maxTicks[2]*100)/100 + "s / " + format(this.powers[2].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks2next*100)/100 + "s / " + format(this.powers2next.times(100)) + "%";
+						this.bupgrades.b3.change.text = Math.round(this.maxTicks[2]*100)/100 + "秒 / " + format(this.powers[2].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks2next*100)/100 + "秒 / " + format(this.powers2next.times(100)) + "%";
 						this.bupgrades.b3.cost.text = format(this.buildings[2].totalCost);
 						this.bupgrades.b3.cost.color = "#FFFF99";
 						this.bupgrades.b3.currency.gotoAndStop(0);
@@ -5359,7 +5359,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b3.currency.visible = true;
 						
 						this.bupgrades.b3.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks2next*100)/100 + "s / " + format(this.powers2next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks2next*100)/100 + "秒 / " + format(this.powers2next.times(100)) + "%";
 						this.bupgrades.b3.cost.text = format(this.buildings[2].totalCost);
 						this.bupgrades.b3.cost.color = "#FFFF99";
 						this.bupgrades.b3.currency.gotoAndStop(0);
@@ -5384,8 +5384,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b4.cost.visible = true;
 						this.bupgrades.b4.currency.visible = true;
 						
-						this.bupgrades.b4.change.text = Math.round(this.maxTicks[3]*100)/100 + "s / " + format(this.powers[3].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks3next*100)/100 + "s / " + format(this.powers3next.times(100)) + "%";
+						this.bupgrades.b4.change.text = Math.round(this.maxTicks[3]*100)/100 + "秒 / " + format(this.powers[3].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks3next*100)/100 + "秒 / " + format(this.powers3next.times(100)) + "%";
 						this.bupgrades.b4.cost.text = format(this.buildings[3].totalCost);
 						this.bupgrades.b4.cost.color = "#FFFF99";
 						this.bupgrades.b4.currency.gotoAndStop(0);
@@ -5395,7 +5395,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b4.currency.visible = true;
 						
 						this.bupgrades.b4.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks3next*100)/100 + "s / " + format(this.powers3next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks3next*100)/100 + "秒 / " + format(this.powers3next.times(100)) + "%";
 						this.bupgrades.b4.cost.text = format(this.buildings[3].totalCost);
 						this.bupgrades.b4.cost.color = "#FFFF99";
 						this.bupgrades.b4.currency.gotoAndStop(0);
@@ -5422,8 +5422,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b1.cost.visible = true;
 						this.bupgrades.b1.currency.visible = true;
 						
-						this.bupgrades.b1.change.text = Math.round(this.maxTicks[4]*100)/100 + "s / " + format(this.powers[4].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks4next*100)/100 + "s / " + format(this.powers4next.times(100)) + "%";
+						this.bupgrades.b1.change.text = Math.round(this.maxTicks[4]*100)/100 + "秒 / " + format(this.powers[4].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks4next*100)/100 + "秒 / " + format(this.powers4next.times(100)) + "%";
 						this.bupgrades.b1.cost.text = format(this.buildings[4].totalCost);
 						this.bupgrades.b1.cost.color = "#FFFF99";
 						this.bupgrades.b1.currency.gotoAndStop(0);
@@ -5433,7 +5433,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b1.currency.visible = true;
 						
 						this.bupgrades.b1.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks4next*100)/100 + "s / " + format(this.powers4next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks4next*100)/100 + "秒 / " + format(this.powers4next.times(100)) + "%";
 						this.bupgrades.b1.cost.text = format(this.buildings[4].totalCost);
 						this.bupgrades.b1.cost.color = "#FFFF99";
 						this.bupgrades.b1.currency.gotoAndStop(0);
@@ -5458,8 +5458,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b2.cost.visible = true;
 						this.bupgrades.b2.currency.visible = true;
 						
-						this.bupgrades.b2.change.text = Math.round(this.maxTicks[5]*100)/100 + "s / " + format(this.powers[5].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks5next*100)/100 + "s / " + format(this.powers5next.times(100)) + "%";
+						this.bupgrades.b2.change.text = Math.round(this.maxTicks[5]*100)/100 + "秒 / " + format(this.powers[5].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks5next*100)/100 + "秒 / " + format(this.powers5next.times(100)) + "%";
 						this.bupgrades.b2.cost.text = format(this.buildings[5].totalCost);
 						this.bupgrades.b2.cost.color = "#FFFF99";
 						this.bupgrades.b2.currency.gotoAndStop(0);
@@ -5469,7 +5469,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b2.currency.visible = true;
 						
 						this.bupgrades.b2.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks5next*100)/100 + "s / " + format(this.powers5next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks5next*100)/100 + "秒 / " + format(this.powers5next.times(100)) + "%";
 						this.bupgrades.b2.cost.text = format(this.buildings[5].totalCost);
 						this.bupgrades.b2.cost.color = "#FFFF99";
 						this.bupgrades.b2.currency.gotoAndStop(0);
@@ -5494,8 +5494,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b3.cost.visible = true;
 						this.bupgrades.b3.currency.visible = true;
 						
-						this.bupgrades.b3.change.text = Math.round(this.maxTicks[6]*100)/100 + "s / " + format(this.powers[6].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks6next*100)/100 + "s / " + format(this.powers6next.times(100)) + "%";
+						this.bupgrades.b3.change.text = Math.round(this.maxTicks[6]*100)/100 + "秒 / " + format(this.powers[6].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks6next*100)/100 + "秒 / " + format(this.powers6next.times(100)) + "%";
 						this.bupgrades.b3.cost.text = format(this.buildings[6].totalCost);
 						this.bupgrades.b3.cost.color = "#FFFF99";
 						this.bupgrades.b3.currency.gotoAndStop(0);
@@ -5505,7 +5505,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b3.currency.visible = true;
 						
 						this.bupgrades.b3.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks6next*100)/100 + "s / " + format(this.powers6next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks6next*100)/100 + "秒 / " + format(this.powers6next.times(100)) + "%";
 						this.bupgrades.b3.cost.text = format(this.buildings[6].totalCost);
 						this.bupgrades.b3.cost.color = "#FFFF99";
 						this.bupgrades.b3.currency.gotoAndStop(0);
@@ -5530,8 +5530,8 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b4.cost.visible = true;
 						this.bupgrades.b4.currency.visible = true;
 						
-						this.bupgrades.b4.change.text = Math.round(this.maxTicks[7]*100)/100 + "s / " + format(this.powers[7].times(100)) + "%"
-							+ " -> " + Math.round(this.maxTicks7next*100)/100 + "s / " + format(this.powers7next.times(100)) + "%";
+						this.bupgrades.b4.change.text = Math.round(this.maxTicks[7]*100)/100 + "秒 / " + format(this.powers[7].times(100)) + "%"
+							+ " -> " + Math.round(this.maxTicks7next*100)/100 + "秒 / " + format(this.powers7next.times(100)) + "%";
 						this.bupgrades.b4.cost.text = format(this.buildings[7].totalCost);
 						this.bupgrades.b4.cost.color = "#FFFF99";
 						this.bupgrades.b4.currency.gotoAndStop(0);
@@ -5541,7 +5541,7 @@ if (reversed == null) { reversed = false; }
 						this.bupgrades.b4.currency.visible = true;
 						
 						this.bupgrades.b4.change.text = "否"
-							+ " -> " + Math.round(this.maxTicks7next*100)/100 + "s / " + format(this.powers7next.times(100)) + "%";
+							+ " -> " + Math.round(this.maxTicks7next*100)/100 + "秒 / " + format(this.powers7next.times(100)) + "%";
 						this.bupgrades.b4.cost.text = format(this.buildings[7].totalCost);
 						this.bupgrades.b4.cost.color = "#FFFF99";
 						this.bupgrades.b4.currency.gotoAndStop(0);
@@ -7053,7 +7053,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['tk-adelle-mono'].push(this.cpTxt);
 	}
 
-	this.craftPowTxt = new cjs.Text("Craft Power", "normal 700 22px 'tk-adelle-mono'", "#FFFFFF");
+	this.craftPowTxt = new cjs.Text("制作力量", "normal 700 22px 'tk-adelle-mono'", "#FFFFFF");
 	this.craftPowTxt.name = "craftPowTxt";
 	this.craftPowTxt.textAlign = "center";
 	this.craftPowTxt.lineHeight = 30;
@@ -7254,7 +7254,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.popidle_1();
 	this.instance_1.setTransform(850,78,0.1185,0.1185);
 
-	this.clickRewTxt = new cjs.Text("/click : 100,000", "normal 700 20px 'tk-adelle-mono'", "#FFFF99");
+	this.clickRewTxt = new cjs.Text("/点击 : 100,000", "normal 700 20px 'tk-adelle-mono'", "#FFFF99");
 	this.clickRewTxt.name = "clickRewTxt";
 	this.clickRewTxt.lineHeight = 27;
 	this.clickRewTxt.lineWidth = 210;
@@ -7268,7 +7268,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2 = new lib.coin();
 	this.instance_2.setTransform(865.55,57.4,0.4369,0.4369,0,0,0,29.1,29.1);
 
-	this.text_1 = new cjs.Text("Rewards", "normal 700 24px 'tk-adelle-mono'", "#FFFFFF");
+	this.text_1 = new cjs.Text("奖励", "normal 700 24px 'tk-adelle-mono'", "#FFFFFF");
 	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 32;
 	this.text_1.lineWidth = 201;
