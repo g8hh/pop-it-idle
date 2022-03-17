@@ -4559,7 +4559,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.cGames.addEventListener("click", goCG.bind(this));
 		function goCG() {
-			window.open("http://crazygames.com/", "_blank");
+			window.open("https://gityx.com/", "_blank");
 		}
 		
 		const crazysdk = window.CrazyGames.CrazySDK.getInstance(); //Getting the SDK
