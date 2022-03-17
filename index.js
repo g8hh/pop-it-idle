@@ -1460,7 +1460,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Слой_1
-	this.text = new cjs.Text("弹出一些气泡，直到获得 20 个气泡和 1 个宝石", "normal 700 20px 'tk-adelle-mono'", "#FFFFFF");
+	this.text = new cjs.Text("弹出一些泡泡，直到获得 20 个泡泡和 1 个宝石", "normal 700 20px 'tk-adelle-mono'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 27;
 	this.text.lineWidth = 241;
@@ -1480,7 +1480,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2 = new lib.CachedBmp_133();
 	this.instance_2.setTransform(-224.7,185.45);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.text,p:{x:125.95,y:12.4,text:"戳破出一些气泡，\n直到获得 20 个气泡和\n 1 个宝石",lineWidth:241,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_1},{t:this.text,p:{x:481.6,y:76.2,text:"现在让我们购买一些升级。\n 提高你的制作力量",lineWidth:205,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:-224.7,y:185.45}},{t:this.text,p:{x:-117.95,y:226.8,text:"现在，让我们制作一个新光标。\n它会增加你的伤害",lineWidth:196,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:585.8,y:-2}},{t:this.text,p:{x:690.75,y:10.05,text:"赚到足够的钱，\n让我们买一个鼠标（在建筑里）。 \n它会给这个游戏一些自动化",lineWidth:196,font:"normal 700 18px 'tk-adelle-mono'",lineHeight:24.65}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.text,p:{x:125.95,y:12.4,text:"戳破出一些泡泡，\n直到获得 20 个泡泡和\n 1 个宝石",lineWidth:241,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_1},{t:this.text,p:{x:481.6,y:76.2,text:"现在让我们购买一些升级。\n 提高你的制作力量",lineWidth:205,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:-224.7,y:185.45}},{t:this.text,p:{x:-117.95,y:226.8,text:"现在，让我们制作一个新光标。\n它会增加你的伤害",lineWidth:196,font:"normal 700 20px 'tk-adelle-mono'",lineHeight:27.15}}]},1).to({state:[{t:this.instance_2,p:{x:585.8,y:-2}},{t:this.text,p:{x:690.75,y:10.05,text:"赚到足够的钱，\n让我们买一个鼠标（在建筑里）。 \n它会给这个游戏一些自动化",lineWidth:196,font:"normal 700 18px 'tk-adelle-mono'",lineHeight:24.65}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -6582,24 +6582,24 @@ if (reversed == null) { reversed = false; }
 							this.hoverHelp.txt.text = "石头以慢速点击随机泡泡";
 						}
 						if (this.hoverType == 2) {
-							this.hoverHelp.txt.text = "针高速点击随机气泡";
+							this.hoverHelp.txt.text = "针高速点击随机泡泡";
 						}
 						if (this.hoverType == 3) {
-							this.hoverHelp.txt.text = "锤击随机点击 2 个相邻的气泡 (50% 伤害) 速度较慢";
+							this.hoverHelp.txt.text = "锤击随机点击 2 个相邻的泡泡 (50% 伤害) 速度较慢";
 						}
 					}
 					if (this.buPage == 2) {
 						if (this.hoverType == 0) {
-							this.hoverHelp.txt.text = "光标快速点击第一个未爆破的气泡";
+							this.hoverHelp.txt.text = "光标快速点击第一个未爆破的泡泡";
 						}
 						if (this.hoverType == 1) {
-							this.hoverHelp.txt.text = "蛇点击随机气泡并以慢速毒化它 (20% 伤害/秒)";
+							this.hoverHelp.txt.text = "蛇点击随机泡泡并以慢速毒化它 (20% 伤害/秒)";
 						}
 						if (this.hoverType == 2) {
-							this.hoverHelp.txt.text = "剑随机切割一排气泡";
+							this.hoverHelp.txt.text = "剑随机切割一排泡泡";
 						}
 						if (this.hoverType == 3) {
-							this.hoverHelp.txt.text = "被动伤害伤害所有气泡";
+							this.hoverHelp.txt.text = "被动伤害伤害所有泡泡";
 						}
 					}
 				}
